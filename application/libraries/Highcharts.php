@@ -10,7 +10,7 @@ class Highcharts{
 		$options = array(
 						'credits' => array('enabled' => 'false'),
 		                'colors' => array('#00AC00','#EEEE00'),
-						'chart' => array('renderTo' => 'graphics_container', 'type' => 'column'),
+						'chart' => array('renderTo' => 'graphic_container', 'type' => 'column'),
 						'tooltip' => array('formatter' => 'function(){return "O valor do eixo y e "+this.y}'),
 						'title' => array('text' => 'Grafico'),
 						'xAxis' => array('title' => array('text' => 'Eixo X'), 'categories' => array(1,2,3,4,5)),
